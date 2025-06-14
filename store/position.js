@@ -1,3 +1,5 @@
+
+
 import { createSlice } from '../redux.js';
 
 const initialState = {
@@ -24,8 +26,9 @@ const reducers = {
   }),
 };
 
+
 export const { reducer, actions } = createSlice({
   name: 'position',
   initialState,
   reducers,
-});
+})
